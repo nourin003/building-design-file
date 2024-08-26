@@ -38,12 +38,13 @@
         }
         .bg-img{
           background-image: url("assets/bg.jpg");
-         
+          border: 1px solid rgb(233, 233, 233);
+          padding: 24px;
+          
         }
         .bg-btn{
           background: rgba(171, 239, 95, 0.2);
-          
-
+        
         }
         .discuss-wd{
           width: 100%;
@@ -51,6 +52,9 @@
           border-radius: 64px;
          
           
+        }
+        .visit-img{
+          border-radius: 50%;
         }
         
         /*.discuss-ln{
@@ -92,7 +96,7 @@
                   
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl text-[#212121]"> <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-3  rounded-full"></i> Rinterio</a>
+              <a class="btn btn-ghost text-xl text-[#212121]"> <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2  rounded-full"></i> Rinterio</a>
             </div>
             <div class="navbar-center hidden  lg:flex">
               <ul class="menu menu-horizontal px-1 gap-x-7"> 
@@ -189,7 +193,7 @@
              <p class="text-base font-medium text-[#494949] mt-8">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
       
             </div>
-            <div class="lg:flex justify-center items-center mt-9  lg:gap-x-6 ">
+            <div class="lg:flex justify-center items-center mt-9 space-y-6 lg:space-x-6 ">
              <div class=" bg-[#E7C1D3] rounded-2xl p-6 ">
                <img src="assets/concept.png" alt="">
                <h3 class="text-xl font-extrabold text-[#1C1C1C] mt-2">Concept</h3>
@@ -276,15 +280,35 @@
          </section>
 
          <!--Visit Our page-->
-         <section>
-          <div>
-            <div></div>
+         <section class=" mx-auto py-7 w-full mt-5">
+          <div class="items-center">
+            <div class="text-center">
+              <h2 class="font-bold text-4xl text-[#212121] mt-6">Visit Our Program</h2>
+            <p class="text-base font-medium text-[#494949] mt-5">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+            </div>
+            
+              <div class="lg:flex justify-center items-center mt-6 space-y-6 lg:space-x-8 text-center px-6">
+                <div class="gap-y-5">
+                  <img class="visit-img bg-[#FFFFFF] shadow-white shadow-md border border-gray-200  p-1" src="assets/article1.png" alt="">
+                  <a class="text-base font-medium text-[#737373] " href="https://www.bdonline.co.uk/">Welcome to our world</a>
+                </div>
+               <div class="gap-y-5">
+                <img class="visit-img bg-[#FFFFFF] shadow-white shadow-md border border-gray-200  p-1" src="assets/article2.png" alt="">
+                <a class="text-base font-medium text-[#737373]" href="https://www.bdcnetwork.com/">Welcome to our world</a>
+               </div>
+                <div class="gap-y-5">
+                  <img class="visit-img bg-[#FFFFFF] shadow-white shadow-md border border-gray-200  p-1" src="assets/article3.png" alt="">
+                  <a class="text-base font-medium text-[#737373]" href="https://ems-et.com/building-design-in-bangladesh/">Welcome to our world</a>
+                </div>
+              </div>
+              
+            
           </div>
          </section>
 
          <!--Discuss Section-->
          <section>
-          <div class="mx-auto py-7 mt-2 px-5 bg-img bg-no-repeat bg-cover mb-5 ">
+          <div class="mx-auto py-7 mt-6 px-5 bg-img bg-no-repeat bg-cover mb-5 ">
             <div class="text-center">
               <button class="btn  text-[#494949] text-base font-bold rounded-3xl bg-btn mt-4 border-none "> <i class="fa-solid fa-arrow-right  text-[1.5px	Middle #494949] "></i>Let’s Connect</button>
               <h2 class="font-bold text-4xl text-[#212121] mt-6">Let’s Discuss Next Project</h2>
@@ -324,7 +348,7 @@
             <h1 class=" text-[#E9E9E9] font-extrabold text-3xl space-x-6"> <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] text-[#1C1C1C] p-2  rounded-full"></i>  Rinterio</h1>
             <p class="text-[#737373] ">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
             
-              <ul class="lg:flex justify-center items-center  lg:space-x-28  text-[#E9E9E9] list-none text-base font-normal">
+              <ul class="lg:flex justify-center items-center space-y-5 lg:space-x-28  text-[#E9E9E9] list-none text-base font-normal">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Portfolio</li>
