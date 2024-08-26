@@ -22,9 +22,11 @@
   tailwind.config = {
     theme: {
       extend: {
+       
         colors: {
           clifford: '#da373d',
         }
+       
       }
     }
   }
@@ -34,6 +36,24 @@
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
+        .bg-img{
+          background-image: url("assets/bg.jpg");
+        }
+        .bg-btn{
+          background: rgba(171, 239, 95, 0.2)
+        }
+        .discuss-wd{
+          width: 100%;
+          padding: 21px 20px 21px 20px;
+          border-radius: 64px;
+         
+          
+        }
+        
+        /*.discuss-ln{
+          text-align:justify;
+         width: 100%;
+        }*/
       </style>
       
 </head>
@@ -185,7 +205,7 @@
          </section>
          <!--Portfolio section-->
          <section>
-          <div class="border-red-700 border-2 mx-auto pt-7 mt-10 px-5">
+          <div class="border-red-700 border-2 mx-auto pt-7 mt-10 px-5 bg-[#FFFFFF]">
             
               <div class="text-center">
                 <button class="btn  text-[#494949] text-base font-bold rounded-3xl bg-[#ABEF5F33] mt-4 shadow-white shadow-md "> <i class="fa-solid fa-arrow-right  text-[1.5px	Middle #494949] "></i>Explore our Latest works</button>
@@ -238,6 +258,49 @@
               <img src="assets/img5.png" alt="">
             </div>
            </div>
+          </div>
+         </section>
+
+         <!--Visit Our page-->
+         <section>
+          <div>
+            <div></div>
+          </div>
+         </section>
+
+         <!--Discuss Section-->
+         <section>
+          <div class="border-red-700 border-2 mx-auto pt-7 mt-10 px-5 bg-img">
+            <div class="text-center">
+              <button class="btn  text-[#494949] text-base font-bold rounded-3xl bg-btn mt-4 shadow-white shadow-md "> <i class="fa-solid fa-arrow-right  text-[1.5px	Middle #494949] "></i>Let’s Connect</button>
+              <h2 class="font-bold text-4xl text-[#212121] mt-6">Let’s Discuss Next Project</h2>
+              <p class="text-base font-medium text-[#494949] mt-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="mt-9 w-4/5 mx-auto">
+              
+              <form action="">
+                  <div>
+                     <div class="lg:flex  justify-center items-center lg:space-x-6">
+                      <input class=" mx-auto bg-[#FFFFFF] border border-gray-100  discuss-wd mb-6 text-base font-medium text-[#A0A0A0] " type="text" placeholder="First Name*">
+                      <input class="mx-auto bg-[#FFFFFF] border border-gray-100 discuss-wd mb-6 text-base font-medium text-[#A0A0A0]" type="text" placeholder="Last Name*">
+                     </div>
+                      <div class="lg:flex  justify-center items-center lg:space-x-6">
+                        <input class="mx-auto bg-[#FFFFFF] border border-gray-100 discuss-wd mb-6 text-base font-medium text-[#A0A0A0] " type="text" placeholder="Phone Number*">
+                      <input class="mx-auto bg-[#FFFFFF] border border-gray-100 discuss-wd mb-6 text-base font-medium text-[#A0A0A0] " type="text" placeholder="Email Number*">
+                      </div>
+                  
+                  </div>
+                  
+                      
+                       <textarea class="w-full rounded-2xl outline-none border-none bg-[#FFFFFF] border border-gray-100  py-4 px-4 resize-none" cols="18" rows="6" name="" id="" placeholder="Write your message here"></textarea>
+                      </form>
+                      <div class="">
+                        <button class="w-full outline-none border-none mt-7 text-center text[#1C1C1C] rounded-full text-xl font-bold items-center bg-[#ABEF5F] px-5 py-3 space-x-6">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45  p-2 rounded-full border border-[#E9E9E9] bg-[#FFFFFF] "></i></button>
+                      </div>
+              
+
+          </div>
+
           </div>
          </section>
         </main>     
